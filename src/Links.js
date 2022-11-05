@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
           <LinkFour/>
           <LinkFive/>
           <LinkSix/>
-          <Link to="/contact">contact</Link>
+          <Link to="/contact" id="contact">contact</Link>
         </article>
       </>
         

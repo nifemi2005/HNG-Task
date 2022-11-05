@@ -1,6 +1,6 @@
 export function FormEmail() {
   return (
-    <div>
+    <div className="warning">
       <label>Email</label>
       <input
         type="email"
