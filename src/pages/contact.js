@@ -1,12 +1,17 @@
 import { Header } from "../Header";
 import { Form } from "../Form";
+import {Hr} from "../Hr"
+import { Footer } from "../Footer";
 export function BookList(){
     return (
-        <div className="wow">
+        <>
             <section>
                 <Header />
                 <Form />
+                
             </section>
-        </div>
+            <Hr />
+            <Footer/>
+        </>
     );
 } 
