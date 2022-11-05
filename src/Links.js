@@ -24,12 +24,4 @@ const LinkThree = () => <a href="http://books.zuri.team/" target="_blank" id="bo
 const LinkFour = () => <a href="https://books.zuri.team/python-for-beginners?ref_id=Niffyboy" target="_blank" id="book__python">Python Book</a>;
 const LinkFive = () => <a href="https://background.zuri.team/" target="_blank" id="pitch">Background Check on Coders</a>;
 const LinkSix = () => <a href="https://books.zuri.team/design-rules" target="_blank" id="book__design">Design Book </a>;
-// const ContactPage = () => {
-//   return(
-//     <>
-//       <a href="" id='contact'>Contact</a>
-//       {/* <Link to='/contact' id='contact'>Contact</Link>  */}
-//     </>
-//   );
-// };
 
