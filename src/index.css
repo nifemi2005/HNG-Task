@@ -184,6 +184,10 @@ footer p {
         height: 55px;
         left: 100px;
     }
+    .form_heading p {
+      font-size: 18px;
+      line-height: 28px;
+    }
 }
 section {
   margin: 90px auto;
@@ -195,10 +199,18 @@ section {
   flex-direction: column;
   gap: 15px;
 }
+.form_heading h1{
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 600;
 
+}
 .form_heading p {
   margin-bottom: 40px;
   font-weight:400;
+  font-size: 20px;
+  line-height: 30px;
+
 }
 
 .row {
@@ -208,8 +220,11 @@ section {
 }
 
 label {
-  font-size: 12px;
-  color: #191919;
+  font-size: 14px;
+  color: #344054;
+  line-height: 20px;
+  font-weight: 500;
+
 }
 
 #first_name {
@@ -227,10 +242,10 @@ label {
 }
 
 .input {
-  border-radius: 4px;
+  border-radius: 8px;
   margin-bottom: 25px;
   box-shadow: none !important;
-  border: 1px solid gainsboro;
+  border: 1px solid #D0D5DD;
   height: 35px;
   display: block;
   width: 100%;
@@ -248,43 +263,61 @@ label {
 }
 
 textarea {
-  height: 180px;
-  border-radius: 4px;
+  height: 132px;
+  border-radius: 8px;
   margin-bottom: 25px;
   box-shadow: none !important;
-  border: 1px solid gainsboro;
+  border: 1px solid #D0D5DD;
   display: block;
   width: 100%;
-  padding: 6px 12px;
+  padding: 12px 14px;
   font-size: 14px;
   line-height: 1.42857143;
   color: #555;
   background-color: #fff;
   border-radius: 4px;
 }
-
+#checkbox{
+  width: 20px;
+  height: 20px;
+  color: #D0D5DD;
+  border-radius: 6px;
+}
 .checkbox {
   display: flex;
   align-items: center;
   padding-top: 20px;
   padding-bottom: 30px;
 }
-
+.checkbox p{
+  color: #475467;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-left: 20px;
+}
 .submit {
   cursor: pointer;
-  border: 1px solid rgba(0, 0, 255, 0.705) !important;
-  background-color: rgba(0, 0, 255, 0.705);
+  border: 1px solid #1570EF !important;
+  background-color: #1570EF;
   color: #fff;
   transition: all 0.3s;
   padding: 9px 28px;
   margin-bottom: 0;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.42857143;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
   touch-action: manipulation;
   border-radius: 4px;
   width: 100%;
+}
+::placeholder {
+  color: #667085;
+  opacity: 1;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
