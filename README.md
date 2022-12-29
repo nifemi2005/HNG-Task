@@ -14,6 +14,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+A snippet of the site can be found below(Laptop Screen Size)
+
 ![profile-tree](https://user-images.githubusercontent.com/91688854/210003812-f4c3beb1-3e3a-4eac-b0c7-bd903eb76692.JPG)
 
 ### `npm run build`
