@@ -18,6 +18,10 @@ A snippet of the site can be found below(Laptop Screen Size)
 
 ![profile-tree](https://user-images.githubusercontent.com/91688854/210003812-f4c3beb1-3e3a-4eac-b0c7-bd903eb76692.JPG)
 
+Mobile view can also be seen below
+
+![Mobile profile-tree](https://user-images.githubusercontent.com/91688854/210004595-78a7bad0-00a1-42db-a7e1-40880524052e.JPG)
+
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
